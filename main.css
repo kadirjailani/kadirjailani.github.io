@@ -1,0 +1,97 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+}
+
+.top-header {
+    background-color: white;
+    ;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.intro {
+    background-image: url("./bg-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-color: grey;
+    position: relative;
+}
+
+.hide-first {
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.test-1 {
+    position: absolute;
+    right: 8%;
+    height: 100%;
+}
+
+.test-2 {
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+#test1+.animate,
+#test2+.animate {
+    opacity: 1;
+}
+
+.title {
+    margin: 300px 0;
+    padding: 0 50px;
+    color: white;
+}
+
+.section-2 {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+
+.item-3 {
+    /* height: 100%; */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.item-4 {
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.group-2 {
+    margin: 80px 0 0 0;
+    padding: 0 40px 0 0;
+}
+
+.group-3 {}
+
+.group-3>img {
+    padding: 40px 20px 20px 0;
+    height: 280px;
+}
